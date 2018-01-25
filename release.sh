@@ -2,4 +2,4 @@
 
 RELEASE_TAG=v9.6.6-1
 
-ghr ${RELEASE_TAG} release
+ghr -u axsy-dev -r postgres_test_artifacts ${RELEASE_TAG} release
